@@ -129,6 +129,11 @@ body {
   margin: 10px 0px 20px;
   font-size: 25px;
 }
+.prevent-select {
+  -webkit-user-select: none; /* Safari */
+  -ms-user-select: none; /* IE 10 and IE 11 */
+  user-select: none; /* Standard syntax */
+}
 
 .popup .form .form-element {
   margin: 15px 0px;
